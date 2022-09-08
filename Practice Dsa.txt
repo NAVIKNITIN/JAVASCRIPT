@@ -1,0 +1,19 @@
+#Palindrome
+
+function reverseString(str) {
+    let newStr = str.split("").reverse().join("")
+    if(str === newStr){
+        console.log("It is an Palindrome")
+    }else{
+        console.log("It is not an Palindrome")
+    }
+}
+reverseString("nitin");
+
+#reverse
+
+function reverseString(str) {
+    return str.split("").reverse().join("")
+}
+reverseString("nitin");
+
